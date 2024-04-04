@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -11,6 +12,10 @@ footer {
   padding: 20px;
 }
 
+h2 {
+  color: green;
+}
+
 img {
   width: 400px;
 }
@@ -20,6 +25,40 @@ header {
   text-align: center;
 }
 
-section {
-  margin-bottom: 20px;
+#competitive-analysis {
+  display: flex;
+  align-items: center;
+}
+
+.comp-text {
+  width: 60%;
+  margin-right: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #33a161;
+  color: white;
+}
+
+.dev-body {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 800px;
+}
+
+.dev-text {
+  margin-left: 40px;
 }
