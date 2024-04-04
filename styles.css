@@ -66,7 +66,7 @@ img {
 
 .dev-text {
   margin-left: 40px;
-  background-color: #bbc0bd;
+  background-color: #76a58a;
   border-radius: 10px;
   padding: 10px;
 }
@@ -85,4 +85,10 @@ img {
 
 .comp-table {
   margin-top: 50px;
+}
+
+.features {
+  background-color: #bbc0bd;
+  border-radius: 10px;
+  padding: 10px;
 }
